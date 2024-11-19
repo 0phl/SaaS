@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+    <!-- Background -->
+    <defs>
+        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#6366f1;stop-opacity:0.1" />
+            <stop offset="100%" style="stop-color:#a855f7;stop-opacity:0.1" />
+        </linearGradient>
+    </defs>
+    <rect width="100%" height="100%" fill="url(#grad1)" />
+
+    <!-- Dashboard Elements -->
+    <rect x="100" y="50" width="600" height="400" rx="15" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+    
+    <!-- Header -->
+    <rect x="120" y="70" width="560" height="60" rx="10" fill="#f8fafc"/>
+    <circle cx="150" cy="100" r="15" fill="#6366f1"/>
+    <rect x="180" y="90" width="100" height="20" rx="5" fill="#e2e8f0"/>
+    <rect x="500" y="90" width="80" height="20" rx="5" fill="#6366f1"/>
+    
+    <!-- Sidebar -->
+    <rect x="120" y="150" width="160" height="280" rx="10" fill="#f8fafc"/>
+    <rect x="140" y="170" width="120" height="10" rx="2" fill="#e2e8f0"/>
+    <rect x="140" y="190" width="100" height="10" rx="2" fill="#e2e8f0"/>
+    <rect x="140" y="210" width="110" height="10" rx="2" fill="#e2e8f0"/>
+    
+    <!-- Main Content -->
+    <rect x="300" y="150" width="380" height="120" rx="10" fill="#f8fafc"/>
+    <path d="M320 180 L420 240 L520 160 L620 220" stroke="#6366f1" stroke-width="3" fill="none"/>
+    <circle cx="420" cy="240" r="4" fill="#6366f1"/>
+    <circle cx="520" cy="160" r="4" fill="#6366f1"/>
+    
+    <!-- Cards -->
+    <rect x="300" y="290" width="180" height="140" rx="10" fill="#f8fafc"/>
+    <rect x="320" y="310" width="140" height="10" rx="2" fill="#e2e8f0"/>
+    <rect x="320" y="330" width="100" height="10" rx="2" fill="#e2e8f0"/>
+    <rect x="320" y="350" width="120" height="60" rx="5" fill="#6366f1" fill-opacity="0.1"/>
+    
+    <rect x="500" y="290" width="180" height="140" rx="10" fill="#f8fafc"/>
+    <rect x="520" y="310" width="140" height="10" rx="2" fill="#e2e8f0"/>
+    <rect x="520" y="330" width="100" height="10" rx="2" fill="#e2e8f0"/>
+    <rect x="520" y="350" width="120" height="60" rx="5" fill="#a855f7" fill-opacity="0.1"/>
+    
+    <!-- Decorative Elements -->
+    <circle cx="720" cy="50" r="30" fill="#6366f1" fill-opacity="0.1"/>
+    <circle cx="80" cy="550" r="40" fill="#a855f7" fill-opacity="0.1"/>
+    <path d="M750 500 Q 780 550 750 600" stroke="#6366f1" stroke-width="2" fill="none"/>
+</svg>
